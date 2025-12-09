@@ -15,6 +15,9 @@
     }
   ],
   "url": "https://github.com/rafarvns/aurion-module",
+  "manifest": "https://raw.githubusercontent.com/rafarvns/aurion-module/main/module.json",
+  "download": "https://github.com/rafarvns/aurion-module/archive/refs/heads/main.zip",
+  "readme": "https://raw.githubusercontent.com/rafarvns/aurion-module/main/README.md",
   "packs": [
     {
       "name": "journals",
