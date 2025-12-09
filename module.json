@@ -1,6 +1,7 @@
 {
   "id": "aurion-module",
-  "title": "Aurion-Module",
+  "title": "Aurion Module",
+  "description": "Conteúdo do mundo de Aurion para D&D 5e.",
   "version": "1.0.0",
   "compatibility": {
     "minimum": "12",
@@ -10,127 +11,90 @@
     {
       "name": "rafarvns",
       "email": "rafarvns@gmail.com",
-      "discord": "flamolino",
-      "flags": {}
+      "discord": "flamolino"
     }
   ],
   "url": "https://github.com/rafarvns/aurion-module",
-  "flags": {
-    "canUpload": true
-  },
-  "packFolders": [
-    {
-      "name": "Aurion Module",
-      "sorting": "m",
-      "packs": [
-        "journals",
-        "actors",
-        "adventures",
-        "items",
-        "macros",
-        "playlist",
-        "tables",
-        "scenes"
-      ]
-    }
-  ],
   "packs": [
     {
       "name": "journals",
       "label": "Journals",
       "path": "packs/journals",
       "type": "JournalEntry",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     },
     {
       "name": "actors",
       "label": "Actors",
       "path": "packs/actors",
       "type": "Actor",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     },
     {
       "name": "adventures",
       "label": "Adventures",
       "path": "packs/adventures",
       "type": "Adventure",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     },
     {
       "name": "items",
       "label": "Items",
       "path": "packs/items",
       "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     },
     {
       "name": "macros",
       "label": "Macros",
       "path": "packs/macros",
       "type": "Macro",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     },
     {
       "name": "playlist",
       "label": "Playlist",
       "path": "packs/playlist",
       "type": "Playlist",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     },
     {
       "name": "tables",
       "label": "Tables",
       "path": "packs/tables",
       "type": "RollTable",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     },
     {
       "name": "scenes",
       "label": "Scenes",
       "path": "packs/scenes",
       "type": "Scene",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
       "system": "dnd5e",
-      "flags": {}
+      "flags": {
+        "compendiumFolder": "Aurion Module"
+      }
     }
-  ],
-  "description": "Conteúdo para o mundo de Aurion."
+  ]
 }
