@@ -19,20 +19,20 @@
     "canUpload": true
   },
   "packFolders": [
-      {
-          "name": "Aurion Module",
-          "sorting": "m",
-          "packs": [
-            "journals",
-            "actors",
-            "adventures",
-            "items",
-            "macros",
-            "playlist",
-            "tables",
-            "scenes"
-          ],
-      }
+    {
+      "name": "Aurion Module",
+      "sorting": "m",
+      "packs": [
+        "journals",
+        "actors",
+        "adventures",
+        "items",
+        "macros",
+        "playlist",
+        "tables",
+        "scenes"
+      ]
+    }
   ],
   "packs": [
     {
@@ -132,5 +132,5 @@
       "flags": {}
     }
   ],
-  "description": ""
+  "description": "Conteúdo para o mundo de Aurion."
 }
